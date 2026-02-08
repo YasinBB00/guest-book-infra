@@ -27,7 +27,7 @@ spec:
             name: backend-config
         env:
         - name: APP_VERSION
-          value: "1.0.10-67b921a"
+          value: "1.0.11-968770d"
         - name: DB_PASSWORD
           valueFrom:
             secretKeyRef:
