@@ -58,3 +58,5 @@ Misc
 
 *-secret.yaml
 *-configmap.yaml
+
+.gitignore
