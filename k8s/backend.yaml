@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ghcr.io/yasinbb00/ocp-guestbook/backend:1.0.14-f60bcd8
+        image: ghcr.io/yasinbb00/ocp-guestbook/backend:1.0.15-16797bb
         imagePullPolicy: Always
         ports:
         - name: http
@@ -27,7 +27,7 @@ spec:
             name: backend-config
         env:
         - name: APP_VERSION
-          value: "1.0.14-f60bcd8"
+          value: "1.0.15-16797bb"
         - name: DB_PASSWORD
           valueFrom:
             secretKeyRef:
